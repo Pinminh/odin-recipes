@@ -80,3 +80,11 @@ img {
 .text-list {
   text-align: justify;
 }
+
+/* Media Query to Remove Colored Margins on Mobile Devices */
+@media (max-width: 768px) {
+  body {
+      padding: 0 0; /* Remove padding on mobile devices */
+      background-color: rgb(255, 255, 240); /* Change background color to white */
+  }
+}
